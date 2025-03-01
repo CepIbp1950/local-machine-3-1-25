@@ -2,7 +2,7 @@
     "PROJECT_SETTINGS": {
         "isLocal": true,
         "isDeployed": true,
-        "ARBITRAGE_ADDRESS": "0x11bc7C1e163A67a7ED7AFa6FC8F4dDCc25426de1",
+        "ARBITRAGE_ADDRESS": "",
         "PRICE_UNITS": 0,
         "PRICE_DIFFERENCE": 0.5,
         "GAS_LIMIT": 600000,
