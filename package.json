@@ -1,0 +1,40 @@
+{
+  "name": "local-machine-3-1-25",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:local": "hardhat run scripts/deploy.ts",
+    "deploy:sepolia": "hardhat run scripts/deploy.ts --network sepolia"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CepIbp1950/local-machine-3-1-25.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/CepIbp1950/local-machine-3-1-25/issues"
+  },
+  "homepage": "https://github.com/CepIbp1950/local-machine-3-1-25#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^4.0.6",
+    "@nomicfoundation/hardhat-ethers-chai-matchers": "^3.0.3",
+    "@nomicfoundation/hardhat-mocha": "^3.0.12",
+    "@nomicfoundation/hardhat-toolbox": "^7.0.0",
+    "@openzeppelin/contracts": "^5.6.1",
+    "@types/chai": "^5.2.3",
+    "@types/mocha": "^10.0.10",
+    "chai": "^6.2.2",
+    "ethers": "^6.16.0",
+    "hardhat": "^3.1.11",
+    "mocha": "^11.7.5",
+    "solc": "^0.8.24",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
